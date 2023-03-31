@@ -128,4 +128,19 @@ input {
     .nav > ul {
         visibility: hidden;
     }
+    .sales_pitch {
+        height: 100%;
+        width: 100%;
+        padding: 5rem;
+        transition: height 2s;
+    }
+}
+
+@media screen and (max-device-width:1050px), screen and (max-width:1050px) {
+    .sales_pitch {
+        height: 100%;
+        width: 100%;
+        padding: 5rem;
+        transition: height 0.25s ease;
+    }
 }
