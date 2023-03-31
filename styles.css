@@ -143,4 +143,14 @@ input {
         padding: 5rem;
         transition: height 0.25s ease;
     }
+
+    .big_text {
+        font-size: clamp(1rem, 3rem, 4rem);
+        font-weight: bold;
+        transition: font-size 0.15s ease;
+    }
+    
+    .little_text {
+        font-size: 1.75rem;
+    }
 }
