@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    background: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    /* border: 2px solid blue; */
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+input {
+    padding: 6px;
+    margin: 5px 0;
+    /* outline: none; */
+    border-radius: 15px;
+    /* background-color: rgba(0,0,255,0.1); */
+    background-color: rgba(237,231,255,0.1);
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.nav {
+    /* border: 2px solid red; */
+    height: 3.5rem;
+    width: 100%;
+    /* background: rgba(0,0,255,0.1); */
+    background-color: rgba(237,231,255,0.1);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.nav :nth-child(2) {
+    margin-left: auto;
+    /* border: 2px solid black; */
+}
+
+.nav > a > img {
+    float: left;
+    position: relative;
+    /* top: 0.5rem; */
+    left: 0.5rem;
+} 
+
+.nav > ul {
+   float: right;
+   margin-right: 1rem;
+   /* border: 2px solid green; */
+   /* display: inline-block; */
+   /* justify-content: flex-end; */
+   list-style-type: none;
+}
+
+.nav > ul > li {
+    display: inline-block;
+    /* display: flex; */
+    /* border: 2px solid purple; */
+    padding: 8px;
+    /* text-decoration: none; */
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.search_bar {
+    outline: none;
+}
+
+.content_container {
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content_subcontainer {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales_pitch {
+    /* border: 2px solid green; */
+    height: 80%;
+    width: 80%;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.61);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_text {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.little_text {
+    font-size: 1.75rem;
+}
